@@ -2,6 +2,12 @@ import React from 'react';
 import Card from './Card';
 
 function CardList({ robots }) {
+    // Testing ErrorBoundry
+
+    /*if(true) {
+        throw new Error("Fuck fuck fuck fuck!!!");
+    }*/
+    
     return(
         <div>
             {
